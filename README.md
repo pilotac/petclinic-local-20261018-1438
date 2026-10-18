@@ -11,6 +11,10 @@ See the presentation here:
 > For up-to-date information, please refer to this repository and its documentation.
 
 
+## Finding owners
+
+The **Find owners** page searches by last name. Leading and trailing spaces are ignored, and an empty search lists every owner.
+
 ## Run Petclinic locally
 
 Spring Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/) or [Gradle](https://spring.io/guides/gs/gradle/).
