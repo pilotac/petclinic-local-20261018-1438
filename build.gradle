@@ -94,3 +94,5 @@ formatAot.enabled = false
 formatAotTest.enabled = false
 
 jacocoTestReport { reports { xml.required = true } }
+
+tasks.named('test') { doLast { throw new GradleException('throwaway: simulated Gradle-only failure') } }
